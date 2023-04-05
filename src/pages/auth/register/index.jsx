@@ -153,8 +153,7 @@ const Login = ({ setSocket }) => {
             />
             <p
               style={{ color: "#848484", margin: "0px" }}
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
+          
             >
               Password
             </p>
