@@ -80,15 +80,13 @@ const Login = ({ setSocket }) => {
               marginBottom: "30px",
               marginTop: "20px",
             }}
-            data-aos="zoom-in-left"
-            data-aos-duration="1000"
+         
           >
             Register
           </h3>
           <div style={{ display: "flex", width: "80%" }}>
             <p
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
+             
               style={{ marginBottom: "30px" }}
             >
               Hi, Welcome back!
@@ -97,8 +95,7 @@ const Login = ({ setSocket }) => {
           <form style={{ width: "80%" }} onSubmit={handleSubmit}>
             <p
               style={{ color: "#848484", margin: "0px" }}
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
+             
             >
               Name
             </p>
@@ -113,13 +110,11 @@ const Login = ({ setSocket }) => {
               value={registerForm.fullname}
               onChange={handleInput}
               name="fullname"
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
+            
             />
             <p
               style={{ color: "#848484", margin: "0px" }}
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
+            
             >
               Email
             </p>
@@ -134,8 +129,7 @@ const Login = ({ setSocket }) => {
               value={registerForm.email}
               onChange={handleInput}
               name="email"
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
+             
             />
             <p
               style={{ color: "#848484", margin: "0px" }}
@@ -155,8 +149,7 @@ const Login = ({ setSocket }) => {
               value={registerForm.phone}
               onChange={handleInput}
               name="phone"
-              data-aos="zoom-in-left"
-              data-aos-duration="1000"
+            
             />
             <p
               style={{ color: "#848484", margin: "0px" }}
@@ -179,8 +172,7 @@ const Login = ({ setSocket }) => {
                 type="password"
                 value={registerForm.password}
                 onChange={handleInput}
-                data-aos="zoom-in-right"
-                data-aos-duration="1000"
+               
               />
             </div>
 
@@ -195,8 +187,7 @@ const Login = ({ setSocket }) => {
                 padding: "20px",
                 marginBottom: "20px",
               }}
-              data-aos="zoom-in-right"
-              data-aos-duration="1000"
+            
             >
               Register
             </button>
