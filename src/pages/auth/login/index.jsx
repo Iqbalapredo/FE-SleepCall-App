@@ -254,14 +254,13 @@ const Login = ({ setSocket }) => {
           </form>
 
           <div style={{ display: "flex" }}>
-            <p data-aos="zoom-in-left" data-aos-duration="1000">
+            <p >
               Don’t have an account?&nbsp;
             </p>
             <Link to="/register" style={{ textDecoration: "none" }}>
               <p
                 style={{ color: "#005c4b" }}
-                data-aos="zoom-in-right"
-                data-aos-duration="1000"
+
               >
                 Sign Up
               </p>
